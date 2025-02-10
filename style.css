@@ -4,15 +4,17 @@
   box-sizing: border-box;
 }
 
- h1, p {
+ main h1 {
   display: flex;
   justify-content: center;
   color: white;
   padding-bottom: 2%;
 }
 
-p {
+main p{
+  display: flex;
   color: black;
+  justify-content: center;
 }
 
 #main {
@@ -28,18 +30,17 @@ p {
   max-width: 100%;
   height: auto;
   display: block;
-  padding: 2% 15% 4% 15%;
+  padding: 6% 15% 4% 15%;
   background-color: white;
 }
 
 img {
   display: block;
+  max-width: 100%;
 }
 
-#image-caption {
-  display: flex;
-  justify-content: center;
-  margin: 15px 0 5px 0;
+figcaption {
+  padding-bottom: 2em;
 }
 
 figcaption {
@@ -63,15 +64,26 @@ figcaption {
   line-height: 1.9;
 }
 
-#tribute-info h3 {
-  padding: 30px 30px 20px 30px;
-  font-size: medium;
+#tribute-info p{
+  display: block;
   color: black;
-  font-weight: 200;
+  padding: 1em 30% 1em 30%;
+  font-style: italic;
+
 } 
 
-#go {
-  font-weight: 800;
-  font-size: 20px;
+cite {
+    display: block;
+  color: black;
+  padding: 1em 30% 1em 30%;
+  font-style: italic;
+
 }
+
+h3{
+  display: flex;
+  justify-content: center;
+  font-weight: 700;
+}
+
 
